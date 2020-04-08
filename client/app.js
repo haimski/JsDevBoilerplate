@@ -2,7 +2,7 @@ const app = document.getElementById('app');
 
 app.innerHTML = 'shalom zoomba fuckers';
 
-let = requestUrl = '/items';
+let requestUrl = '/items';
 let request = new XMLHttpRequest();
 
 request.open('GET', requestUrl);
